@@ -1,0 +1,25 @@
+.alert {
+  color: var(--COLOR-WHITE);
+  padding: 1.5rem 0rem 1.5rem 1.5rem;
+  border-radius: 5px;
+  max-width: 60vw;
+  width: 100%;
+  margin: 2rem 2rem 2rem 1rem;
+}
+.fontawesome-color-size {
+  font-size: 2rem;
+  color: var(--COLOR-WHITE);
+  margin-right: 5px;
+}
+.primary-alert {
+  background-color: var(--ALERT-PRIMARY-COLOR);
+}
+.success-alert {
+  background-color: var(--ALERT-SUCCESS-COLOR);
+}
+.error-alert {
+  background-color: var(--ALERT-ERROR-COLOR);
+}
+.warning-alert {
+  background-color: var(--ALERT-WARNING-COLOR);
+}

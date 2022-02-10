@@ -1,0 +1,72 @@
+.button {
+  background-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-WHITE);
+  border-radius: 3px;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 2rem 2rem;
+  width: 14rem;
+  height: 4rem;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: var(--PRIMARY-HOVER);
+}
+.outline-button {
+  color: var(--COLOR-PRIMARY);
+  background-color: transparent;
+  border: 1px solid var(--COLOR-PRIMARY);
+}
+.outline-button:hover {
+  cursor: pointer;
+  background-color: var(--PRIMARY-HOVER);
+  color: var(--COLOR-WHITE);
+}
+.link-button {
+  background-color: var(--LINK);
+}
+.link-button:hover {
+  background-color: var(--LINK-HOVER);
+  cursor: pointer;
+}
+.text-link {
+  text-decoration: underline;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--COLOR-BLACK);
+  border: none;
+  background-color: transparent;
+}
+.text-link:hover {
+  color: var(--LINK-HOVER);
+  cursor: pointer;
+}
+.shopping-cart-icon {
+  color: var(--COLOR-PRIMARY);
+  font-size: 3.6rem;
+  margin: 0 2rem 0 2rem;
+}
+.shopping-cart-icon:hover {
+  cursor: pointer;
+  color: var(--PRIMARY-HOVER);
+}
+.trash-icon {
+  color: var(--COLOR-SOCIAL-ICON);
+  font-size: 3.4rem;
+  margin: 0 2rem 0 2rem;
+}
+.trash-icon:hover {
+  cursor: pointer;
+  color: var(--ALERT-ERROR-COLOR);
+}
+.floating {
+  color: var(--COLOR-PRIMARY);
+  font-size: 4.5rem;
+  background-color: transparent;
+  margin: 0 2rem 0 2rem;
+}
+.floating:hover {
+  color: var(--PRIMARY-HOVER);
+  cursor: pointer;
+}
