@@ -1,0 +1,144 @@
+/* CSS for nav-bar */
+.navigation {
+  padding: 2rem 1rem;
+  box-shadow: 2px 0px 8px var(--BOX-SHADOW);
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.iconify--icon-park-outline {
+  color: var(--NOTIFICATION-COLOR);
+}
+.nav-pills {
+  text-align: right;
+}
+.nav-brand {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.component-libraryl-link {
+  text-decoration: none;
+  color: var(--COLOR-PRIMARY);
+}
+.nav-bold-link {
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: var(--COLOR-SOCIAL-ICON);
+}
+.nav-bold-link:hover {
+  cursor: pointer;
+  color: var(--COLOR-PRIMARY);
+}
+.link {
+  text-decoration: none;
+  padding: 2.5px 1rem;
+}
+.link:hover {
+  cursor: pointer;
+}
+.list-non-bullet {
+  list-style: none;
+}
+.list-item-inline {
+  display: inline;
+  padding: 5px 5px;
+}
+.social-icons {
+  font-size: 2.6rem;
+  color: var(--COLOR-SOCIAL-ICON);
+}
+.social-icons:hover {
+  cursor: pointer;
+  color: var(--COLOR-PRIMARY);
+}
+/* CSS for all headings and content alignment */
+.content-container {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+}
+/* CSS for sidebar */
+.side-bar {
+  height: 100%;
+  width: 24.8rem;
+  overflow-x: hidden;
+  padding-top: 2rem;
+  margin-left: 2rem;
+  flex: 0 0 auto;
+  height: 75vh;
+  overflow-y: scroll;
+}
+.sidebar-heading {
+  padding: 2rem 1rem 0rem 4rem;
+}
+.sidebar-subheading {
+  padding: 1.5rem 1rem 1rem 4rem;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  display: block;
+  color: var(--COLOR-SOCIAL-ICON);
+  scroll-behavior: auto;
+}
+.sidebar-subheading:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.sidebar-link-active {
+  color: var(--COLOR-PRIMARY);
+}
+/* CSS for main container */
+.main-container {
+  display: flex;
+  width: 100%;
+}
+.logo {
+  height: 4rem;
+  width: 4rem;
+}
+.content-header {
+  font-size: 4.3rem;
+  font-weight: 700;
+  line-height: 6.4rem;
+  letter-spacing: 1px;
+  color: var(--COLOR-BLACK);
+  margin-bottom: 1rem;
+}
+.md-text {
+  font-weight: 600;
+  line-height: 3.2rem;
+  letter-spacing: 1px;
+  color: var(--COLOR-SOCIAL-ICON);
+  margin-bottom: 2.5rem;
+}
+.text-primary-color {
+  color: var(--COLOR-PRIMARY);
+  font-weight: bolder;
+}
+.sectn {
+  margin: 0 3rem 2rem 3rem;
+}
+.component-display-container {
+  background-color: var(--COLOR-WHITE);
+  border: 1.5px solid var(--PRIMARY-HOVER);
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  max-width: 82.5rem;
+}
+.flex-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+.footer-link {
+  text-decoration: none;
+  color: var(--COLOR-BLACK);
+  font-size: 2rem;
+}
+.footer-link:hover {
+  color: var(--PRIMARY-HOVER);
+}
