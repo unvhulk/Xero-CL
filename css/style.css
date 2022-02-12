@@ -58,6 +58,7 @@
 	display: flex;
 	flex-direction: column;
 	margin: 4rem;
+	color: var(--COLOR-WHITE);
 }
 /* CSS for sidebar */
 .side-bar {
@@ -104,7 +105,7 @@
 	font-weight: 700;
 	line-height: 6.4rem;
 	letter-spacing: 1px;
-	color: var(--COLOR-BLACK);
+	color: var(--COLOR-WHITE);
 	margin-bottom: 1rem;
 }
 .md-text {

@@ -42,6 +42,7 @@
 	top: 1rem;
 	right: 5px;
 	background-color: var(--COLOR-WHITE);
+	color: var(--COLOR-BLACK);
 	height: 2.5rem;
 	width: 2.7rem;
 	border-radius: 50%;
