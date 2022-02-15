@@ -1,64 +1,65 @@
 .flex-items {
-  display: flex;
+	display: flex;
+	justify-content: space-between;
 }
 .badge-wrapper {
-  position: relative;
-  margin: 2rem 2rem;
+	position: relative;
+	margin: 2rem 2rem;
 }
 .badge {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50%;
-  background-color: var(--NOTIFICATION-COLOR);
-  color: var(--COLOR-WHITE);
-  text-align: center;
-  font-size: small;
-  position: absolute;
-  padding-top: 3px;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	background-color: var(--NOTIFICATION-COLOR);
+	color: var(--COLOR-WHITE);
+	text-align: center;
+	font-size: small;
+	position: absolute;
+	padding-top: 3px;
 }
 .badge-over-txt {
-  right: 1rem;
-  bottom: 1.8rem;
+	right: 1rem;
+	bottom: 1.8rem;
 }
 .icon {
-  left: 3rem;
-  bottom: 2.5rem;
+	left: 3rem;
+	bottom: 2.5rem;
 }
 .icon-fontsize {
-  font-size: 40px;
-  cursor: pointer;
+	font-size: 40px;
+	cursor: pointer;
 }
 .icon-color {
-  color: var(--ALERT-PRIMARY-COLOR);
+	color: var(--ALERT-PRIMARY-COLOR);
 }
 .facebook-icon {
-  padding-top: 4px;
-  width: 2.5rem;
-  height: 2.5rem;
-  left: 3rem;
-  bottom: 2.5rem;
+	padding-top: 4px;
+	width: 2.5rem;
+	height: 2.5rem;
+	left: 3rem;
+	bottom: 2.5rem;
 }
 .avatar-circle {
-  width: 4.7rem;
-  height: 4.7rem;
-  border-radius: 50%;
-  cursor: pointer;
+	width: 4.7rem;
+	height: 4.7rem;
+	border-radius: 50%;
+	cursor: pointer;
 }
 .avatar-status {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  left: 3.7rem;
-  bottom: 5px;
-  border: 2px solid var(--COLOR-WHITE);
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	left: 3.7rem;
+	bottom: 5px;
+	border: 2px solid var(--COLOR-WHITE);
 }
 .avatar-status-online {
-  background-color: var(--ONLINE-BADGE);
+	background-color: var(--ONLINE-BADGE);
 }
 .avatar-status-offline {
-  background-color: var(--OFFLINE-BADGE);
+	background-color: var(--OFFLINE-BADGE);
 }
 .avatar-status-dnd {
-  background-color: var(--DND-BADGE);
+	background-color: var(--DND-BADGE);
 }
