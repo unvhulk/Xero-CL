@@ -109,11 +109,13 @@
 	margin-bottom: 1rem;
 }
 .md-text {
+	font-size: large;
+	font-family: "Courier New", Courier, monospace;
 	font-weight: 600;
-	line-height: 3.2rem;
+	line-height: 3rem;
 	letter-spacing: 1px;
-	color: var(--COLOR-SOCIAL-ICON);
-	margin-bottom: 2.5rem;
+	color: var(--COLOR-SECONDARY);
+	margin-bottom: 2rem;
 }
 .text-primary-color {
 	color: var(--COLOR-PRIMARY);
@@ -123,7 +125,8 @@
 	margin: 0 3rem 2rem 3rem;
 }
 .component-display-container {
-	background-color: var(--BACKGROUND-BODY-COLOR);
+	justify-content: space-around;
+	background-color: var(--BACKGROUND-BODY-COLOR-DARK);
 	border: 1.5px solid var(--PRIMARY-HOVER);
 	border-radius: 5px;
 	margin-top: 2rem;
@@ -131,6 +134,7 @@
 	max-width: 82.5rem;
 	box-shadow: 0px 3px 10px var(--COLOR-BLACK);
 }
+
 .flex-footer {
 	display: flex;
 	align-items: center;
@@ -144,4 +148,38 @@
 }
 .footer-link:hover {
 	color: var(--PRIMARY-HOVER);
+}
+.doc-text-color {
+	color: var(--COLOR-WHITE);
+}
+.github-text-color {
+	color: var(--COLOR-PRIMARY);
+}
+.github-text-color:hover {
+	color: var(--COLOR-WHITE);
+}
+.button-hover {
+	color: var(--COLOR-WHITE);
+}
+.landing-page-container {
+	margin: 20rem 10rem 5rem 21.5rem;
+	width: 100%;
+	max-width: 85rem;
+	height: auto;
+}
+.lg-header {
+	font-size: 4.5rem;
+	font-weight: 800;
+	line-height: 7rem;
+	margin-left: 1.5rem;
+}
+.md-header {
+	text-align: center;
+	margin: 1rem 0 2rem 0;
+	letter-spacing: 1px;
+	line-height: 2.7rem;
+	color: var(--COLOR-SOCIAL-ICON);
+}
+.landing-page-button {
+	margin-left: 22rem;
 }
