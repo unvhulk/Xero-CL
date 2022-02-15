@@ -125,19 +125,7 @@
 	margin: 0 3rem 2rem 3rem;
 }
 .component-display-container {
-	display: flex;
-	justify-content: center;
-	background-color: var(--BACKGROUND-BODY-COLOR-DARK);
-	border: 1.5px solid var(--PRIMARY-HOVER);
-	border-radius: 5px;
-	margin-top: 2rem;
-	padding: 1.5rem;
-	max-width: 82.5rem;
-	box-shadow: 0px 3px 10px var(--COLOR-BLACK);
-}
-.component-display-containerfn {
-	/* display: flex;
-	justify-content: center; */
+	justify-content: space-around;
 	background-color: var(--BACKGROUND-BODY-COLOR-DARK);
 	border: 1.5px solid var(--PRIMARY-HOVER);
 	border-radius: 5px;
