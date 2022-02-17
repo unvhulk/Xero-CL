@@ -9,10 +9,11 @@
 @import url("../css/style.css");
 @import url("../component/Image/image.css");
 @import url("../component/Input/Input.css");
+@import url("../component/Typography/typography.css");
 
 :root {
 	--COLOR-PRIMARY: #01ccff;
-	--COLOR-SECONDARY: #439782;
+	--COLOR-SECONDARY: #27e4b5;
 	--COLOR-SOCIAL-ICON: #308ea5;
 	--PRIMARY-HOVER: #7a9ea7;
 	--NOTIFICATION-COLOR: #7cf916;
@@ -33,11 +34,11 @@
 	--OFFLINE-BADGE: rgb(112, 112, 112);
 	--BACKGROUND-BODY-COLOR: #1a4b57;
 	--BACKGROUND-BODY-COLOR-DARK: #0f1b1d;
+	--secondary-txt: gray;
 	font-size: 62.5%;
 }
 body {
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1.6rem;
 	background-color: VAR(--BACKGROUND-BODY-COLOR);
 	color: var(--COLOR-WHITE);
