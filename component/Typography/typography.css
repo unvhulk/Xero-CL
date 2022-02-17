@@ -1,0 +1,99 @@
+/* heading */
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	line-height: 1.5;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+p {
+	line-height: 1.5;
+	margin: 0.625rem 0;
+}
+
+.h1 {
+	font-size: 5rem;
+}
+
+.h2 {
+	font-size: 4rem;
+}
+
+.h3 {
+	font-size: 3rem;
+}
+
+.h4 {
+	font-size: 2.5rem;
+}
+
+.h5 {
+	font-size: 2rem;
+}
+
+.h6 {
+	font-size: 1.5rem;
+}
+
+/* txt size*/
+p,
+.txt-rg {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+
+.txt-lg {
+	font-size: 4.5rem;
+}
+
+.txt-md {
+	font-size: 3rem;
+}
+
+.txt-sm {
+	font-size: 1.5rem;
+}
+
+/* font weights */
+
+.txt-light {
+	font-weight: 300;
+}
+.txt-regular {
+	font-weight: 400;
+}
+
+.txt-semibold {
+	font-weight: 600;
+}
+
+.txt-bold {
+	font-weight: 700;
+}
+
+.txt-black {
+	font-weight: 900;
+}
+
+/* txt utility */
+
+.txt-secondary {
+	color: var(--secondary-txt);
+}
+
+.txt-strike-through {
+	text-decoration: line-through;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.txt-right {
+	text-align: right;
+}
