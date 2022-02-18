@@ -7,6 +7,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	text-align: center;
 }
 .iconify--icon-park-outline {
 	color: var(--NOTIFICATION-COLOR);
@@ -18,9 +19,10 @@
 	font-weight: 700;
 	font-size: 4rem;
 }
-.component-libraryl-link {
+.component-library-link {
 	text-decoration: none;
 	color: var(--COLOR-PRIMARY);
+	vertical-align: middle;
 }
 .nav-bold-link {
 	font-weight: 700;
@@ -29,7 +31,7 @@
 }
 .nav-bold-link:hover {
 	cursor: pointer;
-	color: var(--COLOR-PRIMARY);
+	color: var(--PRIMARY-HOVER);
 }
 .link {
 	text-decoration: none;
@@ -85,7 +87,7 @@
 }
 .sidebar-subheading:hover {
 	cursor: pointer;
-	text-decoration: underline;
+	color: var(--PRIMARY-HOVER);
 }
 .sidebar-link-active {
 	color: var(--COLOR-PRIMARY);
@@ -98,6 +100,7 @@
 .logo {
 	height: 4rem;
 	width: 4rem;
+	vertical-align: middle;
 }
 
 .content-header {

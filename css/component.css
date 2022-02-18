@@ -10,6 +10,7 @@
 @import url("../component/Image/image.css");
 @import url("../component/Input/Input.css");
 @import url("../component/Typography/typography.css");
+@import url("../component/Navigation/navigation.css");
 
 :root {
 	--COLOR-PRIMARY: #01ccff;
