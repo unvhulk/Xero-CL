@@ -12,6 +12,7 @@
 @import url("../component/Typography/typography.css");
 @import url("../component/Navigation/navigation.css");
 
+
 :root {
 	--COLOR-PRIMARY: #01ccff;
 	--COLOR-SECONDARY: #27e4b5;
