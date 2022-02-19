@@ -1,0 +1,25 @@
+.toast {
+	background-color: var(--BACKGROUND-BODY-COLOR);
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px var(--secondary-txt);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+}
+
+.toast-actions {
+	color: var(--COLOR-WHITE);
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 25%;
+	margin-right: 10px;
+}
+.toast-cross {
+	width: 3rem;
+	height: fit-content;
+}
+.toast-btn {
+	width: 6rem;
+	height: fit-content;
+}
