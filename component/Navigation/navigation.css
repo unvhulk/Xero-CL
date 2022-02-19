@@ -31,12 +31,12 @@
 }
 .input {
 	border: 2px solid var(--BOX-SHADOW-LIGHTER);
-	padding: 0 16px;
+	padding: 0 1rem;
 	border-radius: 2px 0 0 2px;
 	border: 0;
 	outline: 0 none;
-	font-size: 14px;
-	height: 36px;
+	font-size: 0.865rem;
+	height: 2.25rem;
 	width: 100%;
 }
 .search-btn {

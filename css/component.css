@@ -11,7 +11,7 @@
 @import url("../component/Input/Input.css");
 @import url("../component/Typography/typography.css");
 @import url("../component/Navigation/navigation.css");
-
+@import url("../component/Toast/toast.css");
 
 :root {
 	--COLOR-PRIMARY: #01ccff;
