@@ -1,0 +1,27 @@
+.toast {
+	background-color: transparent;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px var(--secondary-txt);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+}
+
+.toast-actions {
+	color: var(--COLOR-WHITE);
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 25%;
+	margin-right: 10px;
+}
+.toast-cross {
+	background-color: transparent;
+	width: 3rem;
+	height: fit-content;
+}
+.toast-btn {
+	background-color: transparent;
+	width: 6rem;
+	height: fit-content;
+}
