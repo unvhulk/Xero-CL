@@ -1,0 +1,13 @@
+.rating > i {
+	font-size: 2rem;
+}
+.rating-dynamic > i {
+	font-size: 2rem;
+}
+.rating-dynamic:hover .s {
+	font-weight: 900;
+}
+
+.rating-dynamic .s:hover ~ .s::before {
+	font-weight: 400;
+}
