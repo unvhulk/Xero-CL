@@ -64,14 +64,13 @@
 }
 /* CSS for sidebar */
 .side-bar {
-	height: 100%;
-	width: 24.8rem;
+	width: 25rem;
 	overflow-x: hidden;
 	padding-top: 2rem;
 	margin-left: 2rem;
 	flex: 0 0 auto;
-	height: 75vh;
-	overflow-y: scroll;
+	height: 50rem;
+	overflow-y: auto;
 }
 .sidebar-heading {
 	padding: 2rem 1rem 0rem 4rem;
