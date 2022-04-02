@@ -32,6 +32,7 @@ To start using the Component Library Copy and Paste the given code inn your HTML
 -[Image](#image)
 -[Input](#input)
 -[Navigation](#navigation)
+-[Rating](#rating)
 -[Toast](#toast)
 -[Typography](#typography)
 
@@ -150,7 +151,16 @@ We have only one of Navigation Component:
 Click here: https://xero-cl-netlify.netlify.app/component/Navigation/navigation.html
 
 ---
+## Rating
 
+There are two types of rating in this component:
+
+-Static Rating
+-Css Rating
+
+Click here:https://xero-cl-netlify.netlify.app/component/Rating/rating
+
+---
 ## Toast
 
 Xero-CL provides toasts which inform users of a process that an app has performed or will perform. 

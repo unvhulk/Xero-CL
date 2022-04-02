@@ -12,6 +12,7 @@
 @import url("../component/Typography/typography.css");
 @import url("../component/Navigation/navigation.css");
 @import url("../component/Toast/toast.css");
+@import url("../component/Rating/rating.css");
 
 :root {
 	--COLOR-PRIMARY: #01ccff;
