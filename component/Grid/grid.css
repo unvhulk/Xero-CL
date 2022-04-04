@@ -1,0 +1,26 @@
+.grid {
+	display: grid;
+	background: var(--COLOR-SECONDARY);
+	border-radius: 0.2rem;
+	padding: 1rem;
+}
+.col-2 {
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.row-2 {
+	grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+.col-3 {
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.row-3 {
+	grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+.grid > div {
+	background: var(--darkerofseconadary);
+	/* border-radius: 0.2rem; */
+	/* font-weight: bold; */
+	padding: 1rem;
+	margin: 0.5rem;
+	text-align: center;
+}
