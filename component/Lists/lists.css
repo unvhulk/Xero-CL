@@ -1,3 +1,57 @@
 .lists-container {
 	padding: 2rem;
+	color: var(--COLOR-WHITE);
+	border-radius: 2px;
+}
+.list-lower-roman {
+	list-style: lower-roman;
+	padding-left: 5px;
+}
+.list-lower-alpha {
+	list-style: lower-alpha;
+}
+.list-disc {
+	list-style: disc;
+}
+.list-circle {
+	list-style: circle;
+}
+.list-square {
+	list-style: square;
+}
+.list-none {
+	list-style: none;
+}
+.cursor-ptr {
+	cursor: pointer;
+}
+.stacked-list {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	gap: 2.5rem;
+	margin: 3rem auto;
+	max-width: 35rem;
+	padding: 2rem 0;
+	list-style: none;
+}
+.stacked-list li {
+	background: var(--offgreen);
+	border-bottom: medium solid var(--COLOR-BRAND);
+	border-radius: 0.2rem;
+	font-size: 2rem;
+	padding: 1rem;
+	width: 100%;
+	box-shadow: 0px 8px 24px var(--COLOR-SHADOW-LIGHT);
+}
+.stacked-list a {
+	text-decoration: none;
+	display: flex;
+	color: var(--COLOR-BLACK);
+}
+.stacked-list .viewed {
+	color: var(--VIEWED-NOTIFICATION);
+}
+.stacked-list span {
+	margin-left: auto;
 }
