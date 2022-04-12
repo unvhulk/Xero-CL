@@ -14,6 +14,7 @@
 @import url("../component/Navigation/navigation.css");
 @import url("../component/Toast/toast.css");
 @import url("../component/Rating/rating.css");
+@import url("../component/Lists/lists.css");
 
 :root {
 	--COLOR-PRIMARY: #01ccff;
@@ -39,6 +40,7 @@
 	--BACKGROUND-BODY-COLOR: #1a4b57;
 	--BACKGROUND-BODY-COLOR-DARK: #0f1b1d;
 	--secondary-txt: gray;
+	--VIEWED-NOTIFICATION: rgb(9, 116, 9);
 	font-size: 62.5%;
 }
 body {
